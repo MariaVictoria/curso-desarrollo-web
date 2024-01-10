@@ -1,0 +1,94 @@
+Ruta absoluta
+Basándonos de nuevo en la siguiente estructura de archivos y sabiendo ya como movernos entre carpetas.
+
+
+
+📁 miweb
+
+    📁 html
+
+        📑 clase-1.html
+
+        📑 clase-2.html
+
+        📁 ejercicios
+
+            📑 ejercicio-1.html
+
+            📑 ejercicio-2.html
+
+    📁 css
+
+        📑 estilo-1.css
+
+        📑 estilo-2.css
+
+    📁 imagenes
+
+        📑 imagen-1.jpg
+
+        📑 imagen-2.jpg
+
+    📑 pagina-principal.html
+
+
+
+La diferencia entre una ruta absoluta de la relativa es que no necesitas saber donde te encuentras, ya que se debe escribir la dirección completa desde su carpeta raíz(sin incluirla).
+
+
+
+EJEMPLO 1:
+
+Si quieres apuntar desde pagina-principal.html a la imagen-1.jpg.
+
+Primero accedes a la carpeta imagenes: imagenes/
+
+Y después puedes agregar el nombre del archivo: imagenes/imagen-1.jpg
+
+
+
+EJEMPLO 2:
+
+Si quieres apuntar desde el archivo ejercicio-1.html al archivo pagina-principal.html para poder volver a la página principal.
+
+Como esta en la carpeta raíz, tan solo escribe el nombre de archivo: pagina-principal.html
+
+
+
+EJEMPLO 3:
+
+Te encuentras en la clase-1.html y necesitas enlazarla al archivo estilo-1.css para poder aplicarle estilo.
+
+Primero accedes a la carpeta css: css/
+
+Por fin estas donde se encuentra el archivo, solo queda escribirlo: css/estilo-1.css
+
+
+
+EJEMPLO 4:
+
+Te encuentras en la pagina-principal.html y necesitas enlazar el ejercicio-2.html.
+
+Primero accedes a la carpeta html: html/
+
+Ahora entra en la carpeta ejercicios: html/ejercicios/
+
+Por fin estas donde se encuentra el archivo, solo queda escribirlo: html/ejercicios/ejercicio-1.html
+
+
+
+Como has visto no hay que tener en cuenta donde te encuentras para apuntar al otro archivo, al conjunto de la ruta completa escrita desde la carpeta raíz hasta donde esta el archivo, incluido el nombre del archivo y su extensión, se le denomina ruta absoluta.
+
+
+
+Por lo tanto todos estos resultados obtenidos en los ejemplos son rutas absolutas:
+
+imagenes/imagen-1.jpg
+
+pagina-principal.html
+
+css/estilo-1.css
+
+html/ejercicios/ejercicio-1.html
+
+Porque NO dependen de la posición del archivo desde donde se enlaza.
