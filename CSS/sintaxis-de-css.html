@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!--Estilo externo : va en un archivo css por separado con una etiqueta link-->
+	<link rel="stylesheet" href="externo.css">
+
+<!--Estilo interno
+selector { propiedad: valor; propiedad: valor; }
+		/*         declaracion       declaracion         */
+		/*       {    BLOQUE DE DECLARACIONES	       } */-->
+	<style>
+		#interno{color:pink;}
+		</style>
+
+</head>
+<body>
+		<p>Bienvenido al curso</p><hr>
+		<!-- Asi no se hace-->
+
+<p style="color:mediumturquoise;">Estilo en línea</p><hr>
+
+<!--p#interno{Estilo interno}-->
+<p id="interno">Estilo interno</p><hr>
+<p id="externo">Estilo externo</p>
+<hr>
+</body>
+</html>
