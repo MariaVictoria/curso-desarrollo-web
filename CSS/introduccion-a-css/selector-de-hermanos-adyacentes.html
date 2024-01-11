@@ -3,9 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Selector de hermanos adyacentes</title>
 	<style>
-		section+section { background-color: black; }
+		/*el selector de hermanos ady se usa para seleccionar un elementos que está directamente despues de otro elemento especifico. Ademas los elementos hermanos deben tener el mismo elemento principal y cuando hablamos de adyacente hacemos referencia al elemento inmediatamente despues. 
+		Asi el herm ady de la etiqueta p , es la de debajo:  con " + " no se aplica al primero */
+		
+		section+section { background-color: rgb(114, 86, 239); }
 		p+p { color: white; }
 		i+b { color: gray; }
 		b+i { color: orange; }
