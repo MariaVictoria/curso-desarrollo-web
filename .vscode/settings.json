@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/CSS/introduccion-a-css/selectores-simples.html"
+    "livePreview.defaultPreviewPath": "/CSS/introduccion-a-css/selectores-simples.html",
+    "liveServer.settings.port": 5501
 }
